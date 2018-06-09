@@ -142,6 +142,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cpp\AlGas\ONTO123InstructionBuilder.cpp" />
+    <ClCompile Include="cpp\AlGas\ONTO123Instructions.cpp" />
+    <ClCompile Include="cpp\AlGas\ONTO123InstructionState.cpp" />
+    <ClCompile Include="cpp\AlGas\ONTO123InstructionStateBuilder.cpp" />
+    <ClCompile Include="cpp\Core\core.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cpp\AlGas\ONTO123InstructionBuilder.h" />
+    <ClInclude Include="cpp\AlGas\ONTO123Instructions.h" />
+    <ClInclude Include="cpp\AlGas\ONTO123InstructionState.h" />
+    <ClInclude Include="cpp\AlGas\ONTO123InstructionStateBuilder.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
